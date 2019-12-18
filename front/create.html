@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="showInterns.html">Liste des apprenants</a></li>
+                    <li><a href="showAnIntern.html">Trouver un apprenant</a></li>
+                    <li><a href="create.html">Créer un apprenant</a></li>
+                    <li><a href="edit.html">Modifier un apprenant</a></li>
+                    <li><a href="delete.html">Supprimer un apprenant</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form id="form" method="POST" action="http://192.168.33.10/api/interns">
+
+            <div class="form-group">
+
+                <label for="firstname">Prénom</label>
+                <input type="text" class="form-control" id="exampleFormControlTextarea1" name="firstname" rows="3" required>
+
+                <label for="lastname">Nom</label>
+                <input type="text" class="form-control" id="exampleFormControlTextarea1" name="lastname" rows="3" required>
+
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="exampleFormControlTextarea1" name="age" rows="3" required>
+
+                <label for="phone_number">Téléphone</label>
+                <input type="number" class="form-control" id="exampleFormControlTextarea1" name="phone_number" rows="3" required>
+
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlTextarea1" name="email" rows="3" required>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+</body>
+</html>
+
+

@@ -1,0 +1,9 @@
+
+    Vous allez devoir réaliser les pages suivantes :
+    
+    OK- index.html ==> Page de présentation lambda
+    OK- showInterns.html ==> Page qui permet d'afficher les apprenants dans un <table>
+    OK- showAnIntern.html ==> Page qui permet d'afficher un seul apprenant via un <input> et un <button> (genre ce qu'on a fait il y a 30min)
+    - create.html ==> Page qui comporte un formulaire, permettant de créer un apprenant
+    - edit.html ==> Page qui comporte un formulaire, permettant de récupérer les données de l'apprenant en question et de pouvoir modifier ses infos.
+    - delete.html ==> Page qui permet de supprimer un apprenant depuis un ID. 
